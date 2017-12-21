@@ -5,13 +5,12 @@
 # 
 library(tidyverse)
 library(devtools)
-
-# Install and load blogdown package
-devtools::install_github("rstudio/blogdown")
+# install.packages("blogdown")
 library(blogdown)
 
-# Install Hugo
-install_hugo()  # blogdown::install_hugo()
+# Install/Update Hugo
+# install_hugo()  # blogdown::install_hugo()
+update_hugo()     # version 0.31.1
 
 # Install Hugo academic theme
 install_theme("gcushen/hugo-academic", theme_example = TRUE, update_config = TRUE)
