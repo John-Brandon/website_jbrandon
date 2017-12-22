@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+||||||| 5584ea2... changed base url and added theme hugo-academic
+# baseurl = "https://john-brandon.io/"  # End your URL with a `/` trailing slash.
+baseur = “https://jbrandon.netlify.com/”
+=======
+baseurl = "https://john-brandon.io/"  # End your URL with a `/` trailing slash.
+>>>>>>> parent of 5584ea2... changed base url and added theme hugo-academic
 title = "Academic"
 copyright = "&copy; 2017 Your Name"
 theme = "academic"
